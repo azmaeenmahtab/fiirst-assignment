@@ -196,6 +196,43 @@ nav ul {
   max-width: 643px;
 }
 
+/* features */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  max-width: 520px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.features .description {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.hotel {
+  background-color: #fbb4631c;
+  border: 1px solid #fbb4631c;
+
+}
+
+.map {
+  background-color: #29cdf622;
+  border: 1px solid #29cdf622;
+
+}
+
+.pricetag {
+  background-color: #e944441b;
+  border: 1px solid #e944441b;
+
+}
+
 /* responsive */
 @media screen and (max-width:360px) {
   body {
