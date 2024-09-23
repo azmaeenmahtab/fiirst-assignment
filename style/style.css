@@ -233,6 +233,64 @@ nav ul {
 
 }
 
+/* deal */
+.deals-container {
+  text-align: center;
+}
+
+.deal-1 {
+  background-image: url(../Images/Group\ 39.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.deal-2 {
+  background-image: url(../Images/Group\ 40.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.deal-3 {
+  background-image: url(../Images/Group\ 39.png);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.price-card {
+  background-color: rgba(255, 255, 255, 0.79);
+  max-width: 500px;
+  padding: 50px;
+  margin: 0px 50px 0px auto;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.price-card-exception {
+  margin: 0px auto 0px 50px;
+}
+
+.infobar {
+  display: flex;
+  gap: 20px;
+}
+
+.price-card-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.price-card .description {
+  text-align: left;
+}
+
+
+
 /* responsive */
 @media screen and (max-width:360px) {
   body {
