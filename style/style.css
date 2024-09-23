@@ -18,10 +18,18 @@ body {
 .section-title {
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
+
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .description {
   color: #5A5A5D;
+  max-width: 676px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .btn-primary {
@@ -70,7 +78,6 @@ nav ul {
 /* banner style */
 .banner {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.174), rgba(0, 0, 0, 0.58)), url('../Images/banner.png');
-  /* background-image: url('../Images/banner.png'); */
   text-align: center;
   padding: 100px;
   color: white;
@@ -86,9 +93,6 @@ nav ul {
 }
 
 .banner .description {
-  margin-bottom: 40px;
-  max-width: 676px;
-  margin: 0px auto;
   margin-bottom: 40px;
   color: white;
 }
@@ -140,11 +144,6 @@ nav ul {
   margin-top: 100px;
 }
 
-.popular .section-title {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
 .popular .description {
   margin-bottom: 30px;
   margin-top: 0px;
@@ -185,6 +184,16 @@ nav ul {
 .third-row {
   display: flex;
   gap: 20px;
+}
+
+.destination .section-title {
+  margin-bottom: 20px;
+}
+
+.destination .description {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  max-width: 643px;
 }
 
 /* responsive */
