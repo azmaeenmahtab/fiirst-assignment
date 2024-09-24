@@ -362,6 +362,7 @@ nav ul {
 /* form */
 .form-container {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .form {
@@ -398,7 +399,10 @@ nav ul {
 }
 
 .form .description {
+  border-bottom: 1px solid #5a5a5d29;
   text-align: left;
+  margin-left: 0px;
+  padding-bottom: 20px;
 }
 
 .Subscribe-btn {
@@ -409,6 +413,7 @@ nav ul {
 .form-media {
   background-image: url(../Images/Rectangle\ 8\ \(1\).png);
   border-radius: 10px;
+  width: 100%;
 }
 
 .form-offer {
@@ -439,13 +444,51 @@ nav ul {
   margin: 0px;
 }
 
+
 /* footer */
 .footer {
   text-align: center;
+  background-color: #1313180e;
+  /* width: 1520px; */
+  /* margin-left: 0px; */
 }
 
 .footer .nav-icon {
   justify-content: center;
+  padding-top: 70px;
+  height: 80px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.footer h3 {
+  font-size: 32px;
+}
+
+.footer .nav-icon {
+  margin-top: 80px;
+  align-items: center;
+}
+
+.footer img {
+  width: 45px;
+  height: 45px;
+  /* margin-bottom: 20px; */
+}
+
+.footer-icons {
+  margin-bottom: 40px;
+}
+
+.copyright {
+  padding-top: 40px;
+  border-top: 1px solid #5a5a5d29;
+  padding-bottom: 80px;
+  font-weight: 300;
 }
 
 /* responsive */
@@ -604,7 +647,11 @@ nav ul {
     margin-top: 100px;
     margin-left: 100px;
     padding: 10px;
-    top: 120px;
+    top: 185px;
+  }
+
+  .form-offer p {
+    font-size: 15px;
   }
 
   .form-offer h3 {
@@ -612,6 +659,15 @@ nav ul {
   }
 
   .form-media {
-    height: 300px;
+    height: 350px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .nav-icon {
+    margin-top: 0px;
+    padding-top: 15px;
   }
 }
