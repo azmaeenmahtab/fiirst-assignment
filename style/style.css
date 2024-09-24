@@ -439,6 +439,15 @@ nav ul {
   margin: 0px;
 }
 
+/* footer */
+.footer {
+  text-align: center;
+}
+
+.footer .nav-icon {
+  justify-content: center;
+}
+
 /* responsive */
 @media screen and (max-width:360px) {
   body {
