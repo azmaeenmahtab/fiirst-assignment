@@ -560,6 +560,10 @@ nav ul {
     margin-top: 0px;
   }
 
+  .popular ul {
+    padding-right: 0px;
+  }
+
   .mountain-pic img {
     width: 100%;
   }
@@ -648,6 +652,10 @@ nav ul {
   .media-content .btn-primary {
     margin-top: 0px;
     margin-bottom: 20px;
+  }
+
+  .media-content ul {
+    padding-right: 0px;
   }
 
   .media-footage {
