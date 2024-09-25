@@ -2,8 +2,8 @@
 .body {
   font-family: "Mulish", sans-serif;
   max-width: 1170px;
-  margin-right: 180px;
-  margin-left: 180px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .orange-text {
